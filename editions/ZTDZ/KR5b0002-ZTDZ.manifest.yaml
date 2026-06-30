@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0002/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0002/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶自然九天生神章經
+  date: '2015-08-28 23:47:01.429060'
+  source:
+    repository: kanripo
+    path: KR5b0002
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0002_000-ZTDZ.yaml, hash: 'sha256:5b81a9d05ca77d6b31b55d11ee8c304be72bff55389c53e3987c84c9fc42dd41'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0002_000-ZTDZ.markers.yaml, hash: 'sha256:aad4a11ba8459b92184be1d6663cc692ce4be4dc3c73b083d43f4d5f1d039d24'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0002_SJB_000-050843b
+    span:
+    - body
+    - 0
+    - 4740
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ea0922a49d60ff198242059d588eeac851e768d3caba7c0b88a4d3ddb734d473
